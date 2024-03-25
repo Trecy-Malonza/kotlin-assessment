@@ -11,6 +11,7 @@ fun occurrences(text:String){
     println(text.slice(14..18))
     println(text.slice(20..29))
     println(text.slice(31..33))
+
 }
 
 fun values(num1:Int,num2:Int,num3:Int):Int{
@@ -30,18 +31,15 @@ fun volume(pie:Double,radius:Int,num:Int){
     println(volume)
 
 }
-
-
-
-
-fun ispalindrome(word: String) :Boolean{
-    if("word.ispalindrome){
-        return true}
-
-else{
-    return false
+fun ispalindrome(word: String) :Boolean {
+    val newInputString = word.reversed()
+    if (word == word.reversed()) {
+        return true
+    } else {
+        return false
+    }
 }
-}
+
 
 
 
